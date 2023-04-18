@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "miguel.tecnologia.enchanced_energy_converter.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "enchanced_energy_converter.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
