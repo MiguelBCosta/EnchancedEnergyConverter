@@ -13,7 +13,6 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.energy.EnergyStorage;
-import org.jetbrains.annotations.NotNull;
 
 public class BaseConverterBlockEntity extends BaseTileEntity implements IEnergySource {
 

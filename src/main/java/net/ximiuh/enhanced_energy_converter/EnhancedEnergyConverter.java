@@ -12,6 +12,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.ximiuh.enhanced_energy_converter.block.ModBlocks;
 import net.ximiuh.enhanced_energy_converter.block.entity.ModBlockEntities;
 import net.ximiuh.enhanced_energy_converter.item.ModItems;
+import net.ximiuh.enhanced_energy_converter.recipe.ModRecipes;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -27,6 +28,7 @@ public class EnhancedEnergyConverter {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModBlockEntities.register(modEventBus);
+        ModRecipes.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }

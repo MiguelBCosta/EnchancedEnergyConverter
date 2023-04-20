@@ -23,9 +23,9 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, EnhancedEnergyConverter.MOD_ID);
 
-    public static final RegistryObject<Block> LV_RF_EU_CONVERTER = registerBlock("lv_rf_eu_converter", () -> new LvRfEuConverter(BlockBehaviour.Properties.of(Material.METAL)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
-    public static final RegistryObject<Block> MV_RF_EU_CONVERTER = registerBlock("mv_rf_eu_converter", () -> new MvRfEuConverter(BlockBehaviour.Properties.of(Material.METAL)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
-    public static final RegistryObject<Block> HV_RF_EU_CONVERTER = registerBlock("hv_rf_eu_converter", () -> new HvRfEuConverter(BlockBehaviour.Properties.of(Material.METAL)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
+    public static final RegistryObject<Block> LV_RF_EU_CONVERTER = registerBlock("lv_rf_eu_converter", () -> new LvRfEuConverter(BlockBehaviour.Properties.of(Material.STONE).strength(1f)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
+    public static final RegistryObject<Block> MV_RF_EU_CONVERTER = registerBlock("mv_rf_eu_converter", () -> new MvRfEuConverter(BlockBehaviour.Properties.of(Material.STONE).strength(1f)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
+    public static final RegistryObject<Block> HV_RF_EU_CONVERTER = registerBlock("hv_rf_eu_converter", () -> new HvRfEuConverter(BlockBehaviour.Properties.of(Material.STONE).strength(1f)), ModCreativeModeTab.ENHANCED_ENERGY_CONVERTER);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

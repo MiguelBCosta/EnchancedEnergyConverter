@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "enhanced_energy_converter:lv_rf_eu_converter",
+    "enhanced_energy_converter:mv_rf_eu_converter",
+    "enhanced_energy_converter:hv_rf_eu_converter"
+  ]
+}

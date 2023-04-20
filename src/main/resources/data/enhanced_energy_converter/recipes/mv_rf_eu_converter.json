@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ic2:flux_generator_mv"
+    }
+  ],
+  "result": {
+    "item": "enhanced_energy_converter:mv_rf_eu_converter",
+    "count": 1
+  }
+}
