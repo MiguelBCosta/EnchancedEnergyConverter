@@ -1,9 +1,9 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "miguel.tecnologia.enchanced_energy_converter.mixin",
+  "package": "net.ximiuh.enhanced_energy_converter.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "enchanced_energy_converter.refmap.json",
+  "refmap": "enhanced_energy_converter.refmap.json",
   "mixins": [
   ],
   "client": [

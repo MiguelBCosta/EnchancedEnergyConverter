@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "enhanced_energy_converter:block/lv_rf_eu_converter"
+    },
+    "facing=south": {
+      "model": "enhanced_energy_converter:block/lv_rf_eu_converter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "enhanced_energy_converter:block/lv_rf_eu_converter",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "enhanced_energy_converter:block/lv_rf_eu_converter",
+      "y": 90
+    }
+  }
+}

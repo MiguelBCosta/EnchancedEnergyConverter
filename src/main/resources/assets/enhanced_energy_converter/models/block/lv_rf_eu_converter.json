@@ -1,0 +1,22 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "input": "enhanced_energy_converter:block/electric/lv/input",
+    "output": "enhanced_energy_converter:block/electric/lv/output",
+    "particle": "enhanced_energy_converter:block/tray_texture"
+  },
+  "elements": [
+    {
+      "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "texture": "input" },
+        "up":    { "texture": "input" },
+        "north": { "texture": "output"},
+        "south": { "texture": "input" },
+        "west":  { "texture": "input" },
+        "east":  { "texture": "input" }
+      }
+    }
+  ]
+}
